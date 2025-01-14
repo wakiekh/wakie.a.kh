@@ -35,7 +35,11 @@
         <nav class="container">
             <a href="a" class="logo"> <img src="img/Logo-icon.png" alt=""></a>
             
-            <div class="links">
+            <div class="links" id="links">
+                <span class="close_menu" onclick="Open_colose_Menu()"><i class="fa-solid fa-xmark"></i></span>
+
+
+                <a href="#" class="logo"><img src="img/Logo-icon.png" alt=""></a>
                 <a class="activs" href="#">Home</a>
                 <a href="#">About</a>
                 <a href="#">Services</a>
@@ -46,6 +50,7 @@
                 <a href="#"><i class="fa-brands fa-instagram"></i></a>
                 <a href="#"><i class="fa-brands fa-facebook"></i></a>
                 <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                <span class="icon_menu" onclick="Open_colose_Menu()"><i class="fa-solid fa-bars"></i></span>
             </div>
         </nav>
     </header>
@@ -216,16 +221,16 @@
             </div>
         </div>
 
-        <form action="">
+        <form method="post" action="https://api.sheetmonkey.io/form/j8wH9BmJYVAcKzn9dB3HDf">
             <div class="inpts_form">
-                <input type="text" placeholder="Full Name">
-                <input type="text" placeholder="Email">
-                <input type="text" placeholder="Mobile Number">
-                <input type="text" placeholder="Subject">
+                <input type="text" placeholder="Full Name" name="Name" required>
+                <input type="text" placeholder="Email" name="Email" required>
+                <input type="text" placeholder="Mobile Number" name="Phone">
+                <input type="text" placeholder="Subject" name="Subject">
 
-                <textarea name="" id="" placeholder="Your Message Here..."></textarea>
+                <textarea name="Message" id="" placeholder="Your Message Here..."></textarea>
             </div>
-            <button class="btn">Send Message</button>
+            <button type="submit" class="btn">Send Message</button>
         </form>
 
     </div>
