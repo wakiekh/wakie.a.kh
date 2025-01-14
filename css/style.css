@@ -95,7 +95,7 @@ p{
     z-index: -1;
     height: 100%;
     background: rgba(3, 255, 255, 0.096);
-    width: 1.50px;
+    width: 1.4px;
     -webkit-animation: left_Right 18s infinite;
     animation: left_Right 18s infinite;
 
@@ -923,4 +923,11 @@ header .links .logo,
         padding: 15px 20px;
         margin-bottom: 20px;
     }
+}
+
+
+.year p{
+    color: var(--main_color);
+    font-size: 15px;
+    text-align: center;
 }
