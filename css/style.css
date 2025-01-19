@@ -12,7 +12,7 @@
 
 :root{
     --main_color:#51e5ff;
-    --p_color:#8a8a8a8;
+    --p_color: #8a8a8a8;
     --bg_color:#1F1F1F;
     --white_color:#fff;
     --black_color:#070707;
@@ -757,8 +757,7 @@ header .links .logo,
     }
     .contact form{
         width: 80%;
-        margin: 0
-        auto;
+        margin: 0 auto;
     }
     .contact .btn{
         font-size: 16px;
